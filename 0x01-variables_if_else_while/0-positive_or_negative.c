@@ -1,16 +1,21 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
 /* more headers goes there */
-
+#include <stdio.h> 
 /* betty style doc for function main goes there */
+/**
+ *main -entrye
+ *
+ *Description: the random type
+ *Return: 0
+ */
 int main(void)
 {
 	int n;
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	if(n>0)
+	if(n > 0)
 	{
 		printf("%d is positive\n", n);
 	}
