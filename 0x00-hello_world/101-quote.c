@@ -16,13 +16,13 @@ int main(void)
 
 	unsigned int length1 = strlen(s);
 
-	unsigned int length2 =strlen(t);
+	unsigned int length2 = strlen(t);
 
-	unsigned int sum = length1+length2;
+	unsigned int sum = length1 + length2;
 
 	char *str;
 
-	str = malloc(length1+length2);
+	str = malloc(length1 + length2);
 
 	strcpy(str, s);
 
