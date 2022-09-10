@@ -5,8 +5,7 @@
  *main - prinft
  *
  * Description: funcion that show 'Progamming is fun'
- * Return: 0
- * 
+ * Return:  
  */
 int main(void)
 {
