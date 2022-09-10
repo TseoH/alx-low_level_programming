@@ -12,7 +12,7 @@ int main(void)
 {
 	char *s = (char *) "and that piece of art is useful\" - ";
 
-	char *t =(char *) "Dora Korpar, 2015-10-19\n";
+	char *t = (char *) "Dora Korpar, 2015-10-19\n";
 
 	unsigned int length1 = strlen(s);
 
