@@ -9,12 +9,11 @@
  */
 int main(void)
 {
-	char *str = (char *) "and that piece of art is useful\""
-	       "- Dora Korpar, 2015-10-19\n";
-	
-	int length = strlen(str);
+	char *s = (char *) "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
-	write(1, str, length);
-	
+	int length = strlen(s);
+
+	write(1, s, length);
+
 	return (1);
 }
