@@ -27,11 +27,11 @@ int main(void)
 
   char *zero_str = (char *)"0";
 
-  char *six_str = (char *)"and is less than 6 and not 0";
+  char *six_str = (char *)"less than 6 and not 0";
    
   if(n < 6 && n != 0)
   {
-    char *mgs;
+    char *mgs = malloc(strlen(defautl_str) + strlen(six_str));
     
     strcpy(mgs, defautl_str);
 
@@ -41,7 +41,7 @@ int main(void)
   }
   else if (n > 5)
   {
-    char *mgs;
+    char *mgs =  malloc(strlen(defautl_str) + strlen(five_str));
     strcpy(mgs, defautl_str);
 
     strcat(mgs, five_str);
@@ -51,7 +51,7 @@ int main(void)
   }
   else
   {
-    char *mgs;
+    char *mgs =  malloc(strlen(defautl_str) + strlen(zero_str));
     strcpy(mgs, defautl_str);
 
     strcat(mgs, zero_str);
