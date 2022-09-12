@@ -10,7 +10,9 @@ int main(void)
 {
   char letters[] = "abcdefghijklmnopqrstuvwxyz\n";
 
-  for (int i = 0; i < strlen(letters); i++) {
+  long unsigned int i =0;
+
+  for (i = 0; i < strlen(letters); i++) {
     putchar(letters[i]);
   }
   return (0);
