@@ -10,11 +10,15 @@
  */
 int main(void)
 {
-	char letters[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\n";
+	char letters[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	size_t i = 0;
+
 	for (i = 0; i < strlen(letters); ++i)
 	{
 		putchar(letters[i]);
 	}
+	
+	putchar("\n");
+	
 	return (0);
 }
