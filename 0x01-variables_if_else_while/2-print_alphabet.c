@@ -2,18 +2,17 @@
 #include <string.h>
 
 /**
-*Main is entry
+* main - is entry
 *
-*Description: Print alphabet with put-char
-*Return: 0
+* Description: Print alphabet with put-char
+* Return: 0
 */
 int main(void)
 {
-	char letters[] = "abcdefghijklmnopqrstuvwxyz\n";
-	
+	char letters[] = "abcdefghijklmnopqrstuvwxyz\n";	
 	size_t i = 0;
-	
-	for(i = 0; i < strlen(letters); i++)
+
+	for (i = 0; i < strlen(letters); i++)
 	{
 		putchar(letters[i]);
 	}
