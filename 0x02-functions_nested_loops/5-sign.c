@@ -10,8 +10,20 @@
 */
 int print_sign(int n)
 {
-	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+	if (n > 0)
+	{
+		_putchar('+');
 		return (1);
-	else
+	}
+	else if (n == 0)
+	{
+		_putchar(0 + '0');
 		return (0);
+	}
+	else
+	{
+		_putchar('-');
+		_putchar(1 + '0');
+		return (0);
+	}
 }
