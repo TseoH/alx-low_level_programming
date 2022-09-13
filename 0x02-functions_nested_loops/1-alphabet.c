@@ -6,7 +6,7 @@
 * print_alphabet - is entry
 *
 * Description: Print alphabet with put-char
-* Return: 0
+* Return: void
 */
 void print_alphabet(void)
 {
@@ -15,6 +15,6 @@ void print_alphabet(void)
 
 	for (i = 0; i < strlen(letters); i++)
 	{
-		putchar(letters[i]);
+		_putchar(letters[i]);
 	}
 }
