@@ -1,4 +1,6 @@
 #include <unistd.h>
+#include <string.h>
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -7,7 +9,15 @@
  * Description: printer
  * Return: input
  */
-int main(char c)
+int main(void)
 {
-	return (write(1, &c, 1));
+	char str[] = "_putchar";
+	size_t i = 0;
+
+	for (i = 0; i < strlen(str); i++)
+	{
+		putchar(str[i]);
+	}
+	putchar('\n');
+	return (0);
 }
