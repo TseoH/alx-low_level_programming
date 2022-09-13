@@ -4,11 +4,11 @@
 * _abs - print _abs
 *
 * Description : _abs printer
-* @: param
+* @n: param
 * Return: 1 if True
 * Or 0 if False
 */
-int _abs(int)
+int _abs(int n)
 {
-
+  return (n * ((n > 0) - (n < 0)));
 }
