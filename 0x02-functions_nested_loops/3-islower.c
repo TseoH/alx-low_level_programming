@@ -5,9 +5,9 @@
 * islower - print islower
 *
 * Description : islower
-* @c - param
+* @c: param
 * Return: 1 if True
-* Return: 0 if False
+* Or 0 if False
 */
 int _islower(int c)
 {
