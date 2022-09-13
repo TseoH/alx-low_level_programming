@@ -1,17 +1,16 @@
 #include "main.h"
-#include <ctype.h>
 
 /**
-* _islower - print islower
+* _isalpha - print _isalpha
 *
-* Description : islower printer
+* Description : _isalpha printer
 * @c: param
 * Return: 1 if True
 * Or 0 if False
 */
-int _islower(int c)
+int _isalpha(int c)
 {
-	if (c >= 'a' && c <= 'z')
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 		return (1);
 	else
 		return (0);
