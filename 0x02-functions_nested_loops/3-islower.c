@@ -2,9 +2,9 @@
 #include <ctype.h>
 
 /**
-* islower - print islower
+* _islower - print islower
 *
-* Description : islower
+* Description : islower printer
 * @c: param
 * Return: 1 if True
 * Or 0 if False
