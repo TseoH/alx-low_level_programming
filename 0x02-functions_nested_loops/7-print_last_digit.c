@@ -9,6 +9,13 @@
 * Or 0 if False
 */
 int print_last_digit(int n)
-{
-	return (n * ((n > 0) - (n < 0)));
+{	int x;
+
+	pld = (x % 10);
+
+	if (x < 0)
+	{
+		x = (-1 * x);
+	}
+	return (x);
 }
