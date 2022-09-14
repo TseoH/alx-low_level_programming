@@ -1,6 +1,11 @@
 #include "main.h"
 
-
+/**
+* jack_bauer - print jack_bauer
+*
+* Description : jack_bauer printer
+* Return: void
+*/
 void jack_bauer(void)
 {
 	int h, m;
