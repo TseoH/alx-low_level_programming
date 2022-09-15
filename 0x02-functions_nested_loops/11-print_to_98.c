@@ -29,5 +29,11 @@ int print_to_98(int n)
 		{
 			_putchar(i + '0');
 		}
+		_putchar('\n');
+	}
+	else
+	{
+		_putchar(98 + '0');
+		_putchar('\n');
 	}
 }
