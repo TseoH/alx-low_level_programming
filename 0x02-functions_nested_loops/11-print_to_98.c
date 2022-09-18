@@ -7,7 +7,7 @@
  * @n: param
  * Return: 0
  */
-int print_to_98(int n)
+void print_to_98(int n)
 {
 	if (n < 98)
 	{
@@ -15,7 +15,7 @@ int print_to_98(int n)
 
 		while (i <= 98)
 		{
-			_putchar((n + i), '0');
+			_putchar((n + i) + '0');
 			i++;
 
 		}
