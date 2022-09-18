@@ -10,9 +10,9 @@ int main(void)
 {
         int i;
         int y;
-        for (i = 0; i < 100; i++)
+        for (i = 0; i <= 98; i++)
         {
-                for (y = 0; y < 10; y++)
+                for (y = 0; y <= 99; y++)
                 {
                         putchar((i / 10) + '0');
                         putchar((i % 10) + '0');
