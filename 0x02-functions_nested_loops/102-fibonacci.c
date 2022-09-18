@@ -19,7 +19,7 @@ int main(void)
 		prev = current;
 		current = result;
 		printf("%lu", result);
-		if(i == 49)
+		if (i == 49)
 		{
 			printf("\n");
 		}
