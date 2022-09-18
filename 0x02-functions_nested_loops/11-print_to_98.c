@@ -35,7 +35,7 @@ void print_to_98(int n)
 		}
 		_putchar('\n');
 	}
-	else
+	else if (n > 98)
 	{
 		int i = n;
 
@@ -59,5 +59,9 @@ void print_to_98(int n)
 			i--;
 		}
 		_putchar('\n');
+	}
+	else
+	{
+		_putchar(98 + '0');
 	}
 }
