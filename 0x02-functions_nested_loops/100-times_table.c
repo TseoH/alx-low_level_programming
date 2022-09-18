@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * print_to_98 - foo
+ * print_times_table - foo
  *
- * Description: print_to_98
+ * Description: print_times_table
  * @n: param
- * Return: 0
+ * Return: void
  */
  void print_times_table(int n)
- {
+{
 	int x = 0, y, z;
 
 	if (n > 15 || n < 0)
@@ -48,4 +48,4 @@
 		_putchar('\n');
 		x++;
 	}
- }
+}
