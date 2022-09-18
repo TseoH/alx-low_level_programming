@@ -10,6 +10,7 @@ int main(void)
 {
 	int i;
 	int y;
+
 	for (i = 0; i < 10; i++)
 	{
 		for (y = 0; y < 10; y++)
@@ -31,5 +32,5 @@ int main(void)
 		}
 	}
 	putchar('\n');
-	return 0;
+	return (0);
 }
