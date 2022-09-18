@@ -8,7 +8,7 @@
 * Return: 1 if True
 * Or 0 if False
 */
-int print_x(int n)
+int print_last_digit(int n)
 {	int x = n;
 
 	x = (n % 10);
