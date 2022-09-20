@@ -28,6 +28,3 @@ void puts2(char *s)
 		}
 	}
 }
-//
-// Created by MacBooK Pro on 20/09/2022.
-//
