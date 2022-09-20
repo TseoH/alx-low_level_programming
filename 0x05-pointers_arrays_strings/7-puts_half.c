@@ -3,9 +3,9 @@
 #include <string.h>
 
 /**
-*puts2 - printf puts2
+*puts_half - printf puts_half
 *
-*Description: puts2
+*Description: puts_half
 *@str: String
 *Return: void
 */
