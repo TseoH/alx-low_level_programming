@@ -9,7 +9,7 @@
 *@s: String
 *Return: void
 */
-void print_rev(char *s)
+void rev_string(char *s)
 {
 	size_t i;
 
