@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-#include <string.h>
 
 /**
 *print_array - printf print_array
@@ -16,7 +15,10 @@ void print_array(int *a, int n)
 	if (n == 0)
 		return;
 	if (n<0)
-		new_n = n * (-1);
+	{
+		printf("\n");
+		return;
+	}
 	else
 		new_n = n;
 	for (i = 0; i < new_n; i++)
