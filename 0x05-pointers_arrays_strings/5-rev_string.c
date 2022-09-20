@@ -18,8 +18,11 @@ void rev_string(char *s)
 		printf("%s", s);
 		return;
 	}
-	for (i = 0; i < strlen(s); ++i)
+	else
 	{
-		printf("%c", *(s + strlen(s) - (i + 1)));
+		for (i = 0; i < strlen(s); ++i)
+		{
+			printf("%c", *(s + strlen(s) - (i + 1)));
+		}
 	}
 }
