@@ -9,29 +9,29 @@
 *@s: String
 *Return: void
 */
-void puts2(char *s)
+void puts_half(char *str)
 {
 	size_t i, corretLenth;
 
-	if (strlen(s) == 0)
+	if (strlen(str) == 0)
 	{
 		printf("\n");
 	}
 	else
 	{
-		if (strlen(s) % 2 == 0)
+		if (strlen(str) % 2 == 0)
 		{
-			corretLenth = strlen(s);
+			corretLenth = strlen(str);
 		}
 		else
 		{
-			corretLenth = strlen(s) - 1;
+			corretLenth = strlen(str) - 1;
 		}
 		for (i = 0; i < corretLenth; ++i)
 		{
 			if (i >= corretLenth / 2)
 			{
-				printf("%c", *(s + i));
+				printf("%c", *(str + i));
 			}
 			if (i == corretLenth - 1)
 			{
