@@ -15,7 +15,7 @@ void puts2(char *s)
 
 	if (strlen(s) == 0)
 	{
-		printf("%s", s);
+		printf("\n");
 	}
 	else
 	{
