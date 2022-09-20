@@ -6,7 +6,7 @@
 *puts2 - printf puts2
 *
 *Description: puts2
-*@s: String
+*@str: String
 *Return: void
 */
 void puts_half(char *str)
