@@ -13,30 +13,17 @@ void puts_half(char *str)
 {
 	size_t i, corretLenth;
 
-	if (strlen(str) == 0)
+	if (strlen(str) % 2 == 0)
 	{
-		printf("\n");
+		corretLenth = strlen(str) / 2;
 	}
 	else
 	{
-		if (strlen(str) % 2 == 0)
-		{
-			corretLenth = strlen(str);
-		}
-		else
-		{
-			corretLenth = strlen(str) - 1;
-		}
-		for (i = 0; i < corretLenth; ++i)
-		{
-			if (i >= corretLenth / 2)
-			{
-				printf("%c", *(str + i));
-			}
-			if (i == corretLenth - 1)
-			{
-				printf("\n");
-			}
-		}
+		corretLenth = (strlen(str) - 1) / 2;
 	}
+	for (i = corretLenth; i < strlen(str); ++i)
+	{
+		printf("%c", *(str + i));
+	}
+	printf("\n");
 }
