@@ -24,4 +24,5 @@ void rev_string(char *s)
 			printf("%c", *(s + strlen(s) - (i + 1)));
 		}
 	}
+	printf("\n");
 }
