@@ -16,7 +16,6 @@ void rev_string(char *s)
 	if (strlen(s) == 0)
 	{
 		printf("%s", s);
-		return;
 	}
 	else
 	{
