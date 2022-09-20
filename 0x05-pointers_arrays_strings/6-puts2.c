@@ -21,9 +21,13 @@ void puts2(char *s)
 	{
 		for (i = 0; i < strlen(s); ++i)
 		{
-			if(i % 2 == 0)
+			if (i % 2 == 0)
 			{
 				printf("%c", *(s + i));
+			}
+			if (i == strlen(s) - 1)
+			{
+				printf("\n");
 			}
 		}
 	}
