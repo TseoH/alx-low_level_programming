@@ -13,10 +13,15 @@ void print_rev(char *s)
 {
 	size_t i;
 
+	if (strlen(s) == 0)
+	{
+		printf("\n");
+		return;
+	}
 	for (i = 0; i < strlen(s); ++i)
 	{
 		printf("%c", *(s + strlen(s) - (i + 1)));
-		if (i == strlen(s)-1)
+		if (i == strlen(s) - 1)
 		{
 			printf("\n");
 		}
