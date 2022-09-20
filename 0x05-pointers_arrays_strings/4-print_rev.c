@@ -16,5 +16,9 @@ void print_rev(char *s)
 	for (i = 0; i < strlen(s); ++i)
 	{
 		printf("%c", *(s + strlen(s) - (i + 1)));
+		if (i == strlen(s)-1)
+		{
+			printf("\n");
+		}
 	}
 }
