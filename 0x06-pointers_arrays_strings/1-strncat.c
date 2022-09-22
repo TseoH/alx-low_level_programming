@@ -2,12 +2,22 @@
 #include <stdlib.h>
 #include <string.h>
 
+/**
+* _strncat : print _strncat
+*
+* Description: print _strncat
+* @dest : String
+* @src : String
+* @n : Integer
+* return: String
+*/
 char *_strncat(char *dest, char *src, int n)
 {
-	char *new_dest = malloc(strlen(dest));
+	char *new_dest;
 	char *r;
 	int w = 0;
 
+	new_dest = malloc(strlen(dest));
 	while (dest[w] != '\0')
 	{
 		new_dest[w] = dest[w];
