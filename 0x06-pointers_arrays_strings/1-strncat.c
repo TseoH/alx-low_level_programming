@@ -3,13 +3,13 @@
 #include <string.h>
 
 /**
-* _strncat : print _strncat
+*_strncat : print _strncat
 *
-* Description: print _strncat
-* @dest : String
-* @src : String
-* @n : Integer
-* return: String
+*Description: print _strncat
+*@dest : String
+*@src : String
+*@n : Integer
+*Return: String
 */
 char *_strncat(char *dest, char *src, int n)
 {
