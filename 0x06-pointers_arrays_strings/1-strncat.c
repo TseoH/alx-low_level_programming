@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
-*_strncat : print _strncat
+*_strncat - print _strncat return String
 *
 *Description: print _strncat
 *@dest : String
