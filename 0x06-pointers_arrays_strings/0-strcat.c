@@ -7,13 +7,28 @@
 * _strcat - print _strcat
 *
 * Description: print _strcat
-* @param dest
-* @param src
+* @param dest : String
+* @param src : String
 * @return char *
 */
 char *_strcat(char *dest, char *src)
 {
-	char *result = malloc(strlen(dest) + strlen(src));
-	strcpy(result, dest);
+	char *result;
+	char *new_dest;
+	int i = 0;
+	int z = 0;
+
+	while (dest[i] != '\0')
+	{
+		i++;
+	}
+	new_dest = malloc(i);
+	while (dest[z] != '\0')
+	{
+		new_dest[z] = dest[z];
+		z++;
+	}
+	result = malloc(strlen(new_dest) + strlen(src));
+	strcpy(result, new_dest);
 	return (strcat(result, src));
 }
