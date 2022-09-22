@@ -7,9 +7,9 @@
 * _strcat - print _strcat
 *
 * Description: print _strcat
-* @param dest : String
-* @param src : String
-* @return char *
+* @dest: String
+* @src: String
+* Return: char *
 */
 char *_strcat(char *dest, char *src)
 {
