@@ -11,6 +11,7 @@ char *_strncat(char *dest, char *src, int n)
 	while (dest[w] != '\0')
 	{
 		new_dest[w] = dest[w];
+		w++;
 	}
 	r = malloc(strlen(new_dest) + strlen(src));
 	strcpy(r, new_dest);
