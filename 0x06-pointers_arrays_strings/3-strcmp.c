@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 
 /**
 * _strcmp - print _strcmp
