@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
-* _isdigit - printf _isdigit
+*_isdigit - printf _isdigit
 *
-* Description: _isupper print
-* @c: Alphabet
-* Return : Int
+*Description: _isupper print
+*@c: Alphabet
+*Return: Int
 */
 int _isdigit(int c)
 {

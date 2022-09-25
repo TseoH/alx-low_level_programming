@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
-* print_line - printf print_line
+*print_line - printf print_line
 *
-* Description: print_line print
-* @n: Integer
-* Return : Void
+*Description: print_line print
+*@n: Integer
+*Return: Void
 */
 void print_diagonal(int n)
 {

@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
-* print_square - printf print_square
+*print_square - printf print_square
 *
-* Description: print_square print
-* @size: Integer
-* Return : Void
+*Description: print_square print
+*@size: Integer
+*Return: Void
 */
 void print_square(int size)
 {

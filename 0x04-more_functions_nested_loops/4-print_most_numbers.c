@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-* print_most_numbers - printf print_most_numbers
+*print_most_numbers - printf print_most_numbers
 *
-* Description: print_most_numbers print
-* Return : Void
+*Description: print_most_numbers print
+*Return: Void
 */
 void print_most_numbers(void)
 {

@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
-* _isupper - printf _isupper
+*_isupper - printf _isupper
 *
-* Description: _isupper print
-* @c: Alphabet
-* Return : Int
+*Description: _isupper print
+*@c: Alphabet
+*Return: Int
 */
 int _isupper(int c)
 {
