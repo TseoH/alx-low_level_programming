@@ -6,7 +6,7 @@
 *Description: mul print
 *@a: Interger
 *@b: Interger
-*Return : Int
+*Return: Int
 */
 int mul(int a, int b)
 {
