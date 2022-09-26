@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
 *print_line - printf print_line
@@ -13,7 +14,7 @@ void print_diagonal(int n)
 
 	if (n <= 0)
 	{
-		_putchar('\n');
+		putchar('\n');
 		return;
 	}
 	for (i = 0; i <= n; ++i)
@@ -22,10 +23,10 @@ void print_diagonal(int n)
 		{
 			if (k > 0)
 			{
-				_putchar(' ');
+				putchar(' ');
 			}
 		}
-		_putchar('\\');
-		_putchar('\n');
+		putchar('\\');
+		putchar('\n');
 	}
 }
