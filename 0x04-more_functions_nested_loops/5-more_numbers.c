@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
-*print_most_numbers - printf print_most_numbers
+*more_numbers - printf more_numbers
 *
-*Description: print_most_numbers print
+*Description: more_numbers print
 *Return: Void
 */
 void more_numbers(void)
