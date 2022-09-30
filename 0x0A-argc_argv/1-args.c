@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+/**
+*main - printf foo name
+*
+*Description: main print
+*@argc: Integer
+*@argv: String array
+*/
+int main(int argc, char *argv[])
+{
+	if(argc > -1)
+		printf("%d\n", argc);
+	(void) argv;
+	return (0);
+}
