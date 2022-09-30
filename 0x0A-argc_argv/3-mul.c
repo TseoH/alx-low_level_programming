@@ -12,12 +12,15 @@ int main(int argc, char *argv[])
 {
 	int a;
 	int b;
+	int r;
 
 	if(argc > 2)
 	{
 		a = atoi(argv[1]);
 		b = atoi(argv[2]);
-		return (a * b);
+		r = (a * b);
+		printf("%d\n", r);
+		return (0);
 	}
 	else
 	{
