@@ -6,6 +6,7 @@
 *Description: main print
 *@argc: Integer
 *@argv: String array
+*Return: Return a value Integer
 */
 int main(int argc, char *argv[])
 {
