@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 
 /**
 *main - printf foo name
@@ -14,7 +13,6 @@ int main(int argc, char *argv[])
 {
 	int contain_letter = 0;
 	int i;
-	int y;
 	int r = 0;
 
 	if (argc > 1)
@@ -25,6 +23,10 @@ int main(int argc, char *argv[])
 			{
 				contain_letter = 1;
 				break;
+			}
+			else
+			{
+				r += atoi(argv[i]);
 			}
 		}
 		if (contain_letter)
