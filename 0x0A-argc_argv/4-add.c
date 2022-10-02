@@ -26,28 +26,6 @@ int main(int argc, char *argv[])
 				contain_letter = 1;
 				break;
 			}
-			else
-			{
-				if (strlen(argv[i]) > 1)
-				{
-					for (y = 0; y < strlen(argv[i]); ++y)
-					{
-						if (argv[i][y] != 48 && atoi(&argv[i][y]) == 0)
-						{
-							contain_letter = 1;
-							break;
-						}
-						else
-						{
-							r += atoi(argv[i]);
-						}
-					}
-				}
-				else
-				{
-					r += atoi(argv[i]);
-				}
-			}
 		}
 		if (contain_letter)
 		{
