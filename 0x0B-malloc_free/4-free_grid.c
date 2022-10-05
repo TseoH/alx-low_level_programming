@@ -1,12 +1,11 @@
 #include <stdlib.h>
 
 /**
- * free_grid - free a two dimensional grid
- * @grid: the given grid
- * @height: the given height
- *
- * Return: void
- */
+* free_grid - free print
+* @grid: int
+* @height: int
+* Return: void
+*/
 void free_grid(int **grid, int height)
 {
 	int i;
