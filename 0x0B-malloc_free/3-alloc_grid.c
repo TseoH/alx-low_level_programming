@@ -1,12 +1,12 @@
 #include <stdlib.h>
 
 /**
- * free_grid - free a two dimensional grid
- * @width: the given grid
- * @height: the given height
- *
- * Return: void
- */
+* alloc_grid - alloc_grid a two dimensional grid
+* @width: the given grid
+* @height: the given height
+*
+* Return: Integer
+*/
 int **alloc_grid(int width, int height)
 {
 	int **array_mul;
