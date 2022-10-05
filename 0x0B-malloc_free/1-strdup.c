@@ -5,8 +5,7 @@
 *create_array - printf create_array
 *
 *Description: create_array print
-*@s1: Integer
-*@s2: String array
+*@str: String array
 *Return: Return a value
 */
 char *_strdup(char *str)
