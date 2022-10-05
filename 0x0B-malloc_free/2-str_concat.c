@@ -2,9 +2,9 @@
 #include <string.h>
 
 /**
-*create_array - printf create_array
+*str_concat - printf str_concat
 *
-*Description: create_array print
+*Description: str_concat print
 *@s1: Integer
 *@s2: String array
 *Return: Return a value
