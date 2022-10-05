@@ -24,5 +24,10 @@ char *create_array(unsigned int size, char c)
 	{
 		array[i] = c;
 	}
+	if (array == NULL)
+	{
+		free(array);
+		return (NULL);
+	}
 	return (array);
 }
