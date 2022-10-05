@@ -2,9 +2,9 @@
 #include <string.h>
 
 /**
-*create_array - printf create_array
+*_strdup - printf _strdup
 *
-*Description: create_array print
+*Description: _strdup print
 *@str: String array
 *Return: Return a value
 */
