@@ -25,6 +25,11 @@ int *array_range(int min, int max)
 		return (NULL);
 	}
 	_min = min;
+	if (len == 0)
+	{
+		array[0] = max;
+		return (array);
+	}
 	for (i = 0; i <= max; ++i)
 	{
 		array[i] = _min++;
