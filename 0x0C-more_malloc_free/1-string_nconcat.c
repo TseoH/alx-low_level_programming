@@ -4,7 +4,7 @@
 /**
 * string_nconcat - free string_nconcat
 * @s1: char
-* @s1: char
+* @s2: char
 * @n: nsigned int
 * Return: char *
 */
