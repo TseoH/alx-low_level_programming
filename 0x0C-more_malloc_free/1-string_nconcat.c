@@ -26,28 +26,24 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 	s1_len = strlen(s1);
 	s2_len = strlen(s2);
+	if (s2_len >= n)
+	{
+		s2_len = n;
+	}
 	new_string = malloc(sizeof(char) * (s1_len + s2_len + n));
 	if (new_string == NULL)
 	{
 		return (NULL);
 	}
-	for (i = 0; i < s1_len; ++i)
+	for (i = 0; i < s1_len; i++)
 	{
 		new_string[i] = s1[i];
 	}
-	if (n >= s2_len)
+
+	for (i = 0; i < n; i++)
 	{
-		for (k = 0; k < s2_len + 1; ++k)
-		{
-			new_string[i + 1 + k] = s2[k];
-		}
+		new_string[i + s1_len] = s2[i];
 	}
-	else
-	{
-		for (k = 0; k < n + 1; ++k)
-		{
-			new_string[i + 1 + k] = s2[k];
-		}
-	}
+	new_string[s1_len + i] = '\0';
 	return (new_string);
 }
