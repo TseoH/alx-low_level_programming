@@ -39,14 +39,14 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		for (k = 0; k < s2_len + 1; ++k)
 		{
-			new_string[i + 1 +k] = s2[k];
+			new_string[i + 1 + k] = s2[k];
 		}
 	}
 	else
 	{
 		for (k = 0; k < n + 1; ++k)
 		{
-			new_string[i + 1 +k] = s2[k];
+			new_string[i + 1 + k] = s2[k];
 		}
 	}
 	return (new_string);
