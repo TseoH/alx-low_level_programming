@@ -5,7 +5,7 @@
 * string_nconcat - free string_nconcat
 * @s1: char
 * @s2: char
-* @n: nsigned int
+* @n: unsigned int
 * Return: char *
 */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
@@ -14,7 +14,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	unsigned int s1_len;
 	unsigned int s2_len;
 	unsigned int i;
-	unsigned int k;
 
 	if (s1 == NULL)
 	{
