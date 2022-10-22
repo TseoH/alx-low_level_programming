@@ -1,9 +1,9 @@
-#include <stdio.h>
 #include <string.h>
 #include "lists.h"
 /**
 * add_node - add node to list node
 *@head: Head of List of type list_t
+*@str: str for new nod
 * Description: Add node in list
 * Return: list_t
 */
@@ -22,6 +22,7 @@ list_t *add_node(list_t **head, const char *str)
 	new_node = malloc(sizeof(list_t));
 	if (new_node == NULL)
 	{
+		free(new_node);
 		return (NULL);
 	}
 	_str_len = strlen(_str);
