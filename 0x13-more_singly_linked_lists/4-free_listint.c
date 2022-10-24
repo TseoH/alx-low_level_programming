@@ -8,16 +8,14 @@
 * Description: Return Void
 * Return: void
 */
-void free_listint2(listint_t **head)
+void free_listint(listint_t *head)
 {
 	listint_t *current;
-	listint_t *incoming;
 
-	incoming = *head;
-	while (incoming != NULL)
+	while (head != NULL)
 	{
-		current = incoming->next;
-		free(incoming);
-		incoming = current;
+		current = head->next;
+		free(head);
+		head = current;
 	}
 }
