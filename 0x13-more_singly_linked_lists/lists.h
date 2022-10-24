@@ -5,7 +5,7 @@
 
 typedef struct listint_s
 {
-    unsigned int n;
+    int n;
     struct listint_s *next;
 } listint_t;
 
